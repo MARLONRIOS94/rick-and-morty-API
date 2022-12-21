@@ -24,8 +24,6 @@ const fetchData = async (id) => {
             estado:data.status,
             ultimaubicacion:data.location.name,
             vistoprimeravez:data.origin.name,
-
-
         }
 
         pintarcard(rickmorty)
@@ -54,4 +52,3 @@ const pintarcard = (rickmorty) => {
     fragment.appendChild(clone)
     flex.appendChild(fragment)
 }
-
